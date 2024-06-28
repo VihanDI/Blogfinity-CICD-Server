@@ -16,7 +16,7 @@ const cors = require("cors");
 //middleware for cors
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "http://100.25.211.118:8081",
     credentials: true,
   })
 );
